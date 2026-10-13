@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciberseguridad | Protege tu información</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+<body>
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold" href="#inicio">
+        CiberSeguridad
+      </a>
+      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="#inicio">Inicio</a>
+        <a class="navbar-item" href="#amenazas">Amenazas</a>
+        <a class="navbar-item" href="#buenas-practicas">Buenas prácticas</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Más</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#acerca">Acerca de</a>
+            <a class="navbar-item" href="#recursos">Recursos</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-danger" href="#contacto">
+              <strong>Reportar incidente</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero is-dark is-medium" id="inicio">
+    <div class="hero-body">
+      <div class="container">
+        <p class="title is-1">Protege tu información</p>
+        <p class="subtitle is-4">
+          La ciberseguridad es el conjunto de prácticas que defienden tus cuentas,
+          dispositivos y datos frente a ataques digitales. Conoce las amenazas más
+          comunes y cómo evitarlas.
+        </p>
+        <div class="buttons">
+          <a class="button is-primary is-medium" href="#amenazas">Ver amenazas</a>
+          <a class="button is-light is-outlined is-medium" href="#buenas-practicas">Buenas prácticas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="amenazas">
+    <div class="container">
+      <h2 class="title is-2">Amenazas comunes</h2>
+      <p class="subtitle">Los ataques que más afectan a personas y organizaciones.</p>
+      <div class="columns is-multiline">
+        <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Phishing</p>
+                  <p class="subtitle is-6">Suplantación de identidad</p>
+                </div>
+              </div>
+              <div class="content">
+                Correos, mensajes o páginas falsas que imitan a un banco o una empresa
+                para que entregues contraseñas o datos personales.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Malware</p>
+                  <p class="subtitle is-6">Software malicioso</p>
+                </div>
+              </div>
+              <div class="content">
+                Programas como virus, troyanos y spyware que dañan el equipo,
+                roban información o espían lo que haces.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Ransomware</p>
+                  <p class="subtitle is-6">Secuestro de datos</p>
+                </div>
+              </div>
+              <div class="content">
+                Cifra tus archivos y exige un pago para devolverte el acceso.
+                Las copias de seguridad son la mejor defensa.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+          <div class="card">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Ingeniería social</p>
+                  <p class="subtitle is-6">Engaño a las personas</p>
+                </div>
+              </div>
+              <div class="content">
+                El atacante manipula a la víctima, por llamada o mensaje,
+                para que ella misma le abra la puerta.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section has-background-white-bis" id="buenas-practicas">
+    <div class="container">
+      <h2 class="title is-2">Buenas prácticas</h2>
+      <p class="subtitle">Hábitos simples que reducen el riesgo de forma notable.</p>
+      <div class="columns is-multiline">
+        <div class="column is-12-tablet is-6-desktop">
+          <article class="message is-success">
+            <div class="message-header">
+              <p>Usa contraseñas fuertes y únicas</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+              Crea contraseñas largas y <strong>diferentes para cada cuenta</strong>.
+              Un gestor de contraseñas te ayuda a recordarlas sin repetirlas.
+            </div>
+          </article>
+        </div>
+        <div class="column is-12-tablet is-6-desktop">
+          <article class="message is-info">
+            <div class="message-header">
+              <p>Activa la verificación en dos pasos</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+              Aunque alguien consiga tu contraseña, necesitará un
+              <strong>segundo código</strong> para entrar a tu cuenta.
+            </div>
+          </article>
+        </div>
+        <div class="column is-12-tablet is-6-desktop">
+          <article class="message is-warning">
+            <div class="message-header">
+              <p>Mantén todo actualizado</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+              Las actualizaciones corrigen fallos que los atacantes aprovechan.
+              Actualiza el <strong>sistema, las aplicaciones y el antivirus</strong>.
+            </div>
+          </article>
+        </div>
+        <div class="column is-12-tablet is-6-desktop">
+          <article class="message is-danger">
+            <div class="message-header">
+              <p>Desconfía de enlaces y adjuntos sospechosos</p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+            <div class="message-body">
+              Si un mensaje te mete prisa o te pide datos, <strong>no hagas clic</strong>.
+              Verifica por otro medio antes de responder.
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="acerca">
+    <div class="container">
+      <h2 class="title is-2">Acerca de</h2>
+      <div class="content is-medium">
+        <p>
+          Este sitio es un proyecto de clase creado con HTML y el framework CSS
+          <strong>Bulma</strong>. Su objetivo es explicar, de forma sencilla, qué amenazas
+          existen en internet y qué hábitos ayudan a protegerse de ellas.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section has-background-white-bis" id="recursos">
+    <div class="container">
+      <h2 class="title is-2">Recursos</h2>
+      <div class="content is-medium">
+        <ul>
+          <li><a href="https://www.cisa.gov/secure-our-world" target="_blank" rel="noopener">CISA – Secure Our World</a>: consejos básicos de seguridad.</li>
+          <li><a href="https://owasp.org" target="_blank" rel="noopener">OWASP</a>: seguridad de aplicaciones web.</li>
+          <li><a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a>: revisa si tu correo apareció en una filtración.</li>
+          <li><a href="https://www.incibe.es" target="_blank" rel="noopener">INCIBE</a>: guías de ciberseguridad en español.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="contacto">
+    <div class="container">
+      <h2 class="title is-2">¿Sospechas de un incidente?</h2>
+      <article class="message is-danger">
+        <div class="message-header">
+          <p>Qué hacer de inmediato</p>
+        </div>
+        <div class="message-body">
+          <strong>1.</strong> Cambia las contraseñas afectadas desde otro dispositivo.
+          <strong>2.</strong> Desconecta el equipo de internet.
+          <strong>3.</strong> Avisa al área de TI o al responsable de seguridad de tu institución.
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>CiberSeguridad</strong> –  Tarea de Gelsy Ventura
+        Hecho con <a href="https://bulma.io">Bulma</a>
+        
+      </p>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.navbar-burger').forEach(burger => {
+        burger.addEventListener('click', () => {
+          const target = document.getElementById(burger.dataset.target);
+          burger.classList.toggle('is-active');
+          target.classList.toggle('is-active');
+          burger.setAttribute('aria-expanded', burger.classList.contains('is-active'));
+        });
+      });
+      document.querySelectorAll('.navbar-menu a.navbar-item').forEach(link => {
+        link.addEventListener('click', () => {
+          document.querySelector('.navbar-burger').classList.remove('is-active');
+          document.getElementById('navMenu').classList.remove('is-active');
+        });
+      });
+      document.querySelectorAll('.message .delete').forEach(btn => {
+        btn.addEventListener('click', () => {
+          btn.closest('.column').style.display = 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
